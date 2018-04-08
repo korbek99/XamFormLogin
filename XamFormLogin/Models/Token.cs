@@ -1,4 +1,6 @@
 ﻿using System;
+using SQLite;
+
 namespace XamFormLogin.Models
 {
     public class Token
@@ -7,6 +9,7 @@ namespace XamFormLogin.Models
         {
         }
 
+        [PrimaryKey]
         public int id { get; set; }
         public string access_token { get; set; }
         public string error_description { get; set; }

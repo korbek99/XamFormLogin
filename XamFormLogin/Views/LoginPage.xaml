@@ -4,9 +4,9 @@
 
     <StackLayout Spacing="2" x:Name="Masterlayout">
 
-            <StackLayout x:Name="LogoStack" VerticalOptions="StartAndExpand">
-                 <!--Image  x:Name="LoginIcon" Source="LoginIcon.png" Margin="0,80,0,0"></Image-->
-            </StackLayout>
+            <!--StackLayout x:Name="LogoStack" VerticalOptions="StartAndExpand">
+                 <Image  x:Name="LoginIcon" Source="LoginIcon.png" Margin="0,80,0,0"></Image>
+            </StackLayout-->
             
             <StackLayout Spacing="2" x:Name="LoginEntrieStack">
 

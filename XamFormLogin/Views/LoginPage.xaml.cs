@@ -29,6 +29,7 @@ namespace XamFormLogin.Views
             if(user.checkInformation())
             {
                 DisplayAlert("Login","Login Success","Ok");
+                App.Userdatabase.SaveUser(user);
 
             }else{
 
